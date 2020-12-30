@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A96B8DEE-9D31-4A00-9456-0AFA441E8B74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerAggregator", "src\SwaggerAggregator\SwaggerAggregator.csproj", "{841032B3-BBE1-4DC4-93EE-D35326386464}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{841032B3-BBE1-4DC4-93EE-D35326386464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{841032B3-BBE1-4DC4-93EE-D35326386464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{841032B3-BBE1-4DC4-93EE-D35326386464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{841032B3-BBE1-4DC4-93EE-D35326386464}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{841032B3-BBE1-4DC4-93EE-D35326386464} = {A96B8DEE-9D31-4A00-9456-0AFA441E8B74}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C64CF658-FB10-4009-85E9-AE3D3E141865}
+	EndGlobalSection
+EndGlobal

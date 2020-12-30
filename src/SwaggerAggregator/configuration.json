@@ -1,0 +1,33 @@
+{
+  "info": {
+    "title": "Microservices Example",
+    "description": "Microservices Example Description",
+  },
+  "servers": [
+    {
+      "name": "Staging",
+      "url": "http://api.k8straning.eu",
+      "description": "Staging Server"
+    }
+  ],
+  "services": [
+    {
+      "name": "customers",
+      "url": "http://localhost:5000/documentation/v1/swagger.yaml",
+      "version": "v1.0.0",
+      "removeApiPrefix": true
+    },
+    {
+      "name": "contracts",
+      "url": "http://localhost:5001/documentation/v1/swagger.yaml",
+      "version": "v1.0.0",
+      "removeApiPrefix": true
+    },
+    {
+      "name": "customers",
+      "url": "http://localhost:5000/documentation/v2/swagger.yaml",
+      "version": "v2.0.0",
+      "removeApiPrefix": true
+    }
+  ]
+}
